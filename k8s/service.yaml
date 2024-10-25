@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: gardem-api
+  name: gardem-api
+spec:
+  ports:
+    - name: "http"
+      port: 8000
+      protocol: TCP
+      targetPort: 8000
+  selector:
+    app: gardem-api
+  type: ClusterIP
