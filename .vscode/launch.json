@@ -15,7 +15,7 @@
         "8000"
       ],
       "env": {
-        "DB_URL": "sqlite+aiosqlite://",
+        "DB_URL": "sqlite+aiosqlite:///dev.db",
         "DEBUG": "yes"
       }
     },
@@ -33,7 +33,7 @@
         "8000"
       ],
       "env": {
-        "DB_URL": "sqlite+aiosqlite://",
+        "DB_URL": "sqlite+aiosqlite:///dev.db",
         "DEBUG": "yes",
         "BROKER_DRY": "yes"
       }
