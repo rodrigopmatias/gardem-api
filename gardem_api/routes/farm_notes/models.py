@@ -5,7 +5,7 @@ from sqlalchemy import DECIMAL, DateTime, ForeignKey, String, Text
 from sqlalchemy.orm import Mapped, mapped_column
 
 from gardem_api.db import DBModel
-from gardem_api.routes.farm_note.schema import FarmNoteType
+from gardem_api.routes.farm_notes.schema import FarmNoteType
 
 
 class FarmNote(DBModel):

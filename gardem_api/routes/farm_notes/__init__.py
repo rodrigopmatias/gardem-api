@@ -3,7 +3,7 @@ from sqlalchemy import func, select, update
 
 from gardem_api.auth import User, current_user
 from gardem_api.db import Datasource, datasource
-from gardem_api.routes.farm_note import models, schema
+from gardem_api.routes.farm_notes import models, schema
 
 router = APIRouter(prefix="/v1/farms", tags=["farms"])
 
